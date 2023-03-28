@@ -3,7 +3,6 @@
         <div style=" height: 0px; border: 0.5px solid #EA5448;"></div>
         <div class="header3">
             <div class="search">
-            
                 <input style="border:none; width: 600px; height: 40px; font-size: 16px; padding-left: 10px; " type="text" v-model="search"  placeholder="Ten - Ten khoa hoc" />
             </div>
             <div style=" background: grey; color: white; width: 40px; height: 42px; display:flex; align-items:center; justify-content:center;" @click="TimKiem()">
@@ -130,7 +129,7 @@ export default {
             })
         },
         xemChiTiet(id) {
-        // this.$router.push(this.url+id)
+        // this.$router.push(this.url+id) huongkoihihi
         window.location.assign("http://localhost:8080/chi-tiet/"+id)
         },
         gotopage(pageNum) {
