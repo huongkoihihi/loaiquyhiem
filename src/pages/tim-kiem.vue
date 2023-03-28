@@ -90,7 +90,7 @@ export default {
         page:1,
     }),
     mounted() {
-        //Goi khi tai trang
+        //Goi khi tai trang 1234567890-
         this.getLoai()
         this.in()
     },
